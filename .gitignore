@@ -1,0 +1,26 @@
+.DS_Store
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Docker
+*.env
+.env*
+.dockerignore
+
+# Composer / PHP
+/vendor/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+
+# Local runtime data
+mysql-data/
+db_data/
+node_modules/
